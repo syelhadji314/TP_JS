@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica', sans-serif;
+    overflow: hidden;
+}
+body{
+  background-image: url(pwd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.content{
+    /* background-color: #57368a; */
+    background-color: transparent;
+    padding: 1%;
+    width: 30vw;
+    height: auto;
+}
+  .password-generator {
+    padding: 20px;
+    /* background-color: #2a124d; */
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  
+  .password-generator div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding:12px ; 
+    color: black;
+  }
+  .password-generator label{
+      font-size: 25px;
+  }
+  .password {
+    min-width: 280px;
+    background-color: white;
+    /* color: rgb(199, 199, 199); */
+  }
+  .password p {
+    width: 20vw;
+    height: 7vh;
+    font-size: 3rem;
+  }
+  .password button#btncopy {
+    background-color:#e5b63e ;
+    color: #2a124d;
+    width: 5vw;
+    margin-bottom: 4%;
+  }
+  .password-generator button {
+    width: 100%;
+    border: none;
+    color: #2a124d;
+    background-color: #e5b63e;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  input{
+    font-size: 2rem;
+  }
+  
